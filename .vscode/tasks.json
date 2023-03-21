@@ -6,7 +6,7 @@
     {
       "label": "Serve",
       "type": "shell",
-      "command": "bundle exec jekyll serve --livereload",
+      "command": "bundle exec jekyll serve --livereload --port 4444",
       "group": {
         "kind": "test",
         "isDefault": true
