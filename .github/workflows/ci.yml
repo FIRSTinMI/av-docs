@@ -34,7 +34,7 @@ jobs:
     - name: Build Site
       run: bundle exec jekyll build
     - name: HTML Proofer
-      run: bundle exec htmlproofer ./_site
+      run: rake proofer
 
   github-pages-build:
     name: Build (github-pages gem)
