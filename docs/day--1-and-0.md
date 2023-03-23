@@ -65,7 +65,7 @@ In most venues, the pit area has a PA system and mic that can be used for pit ar
 The Pit Display(s) need a network connection. A connected laptop at the Pit Admin table is very helpful as they can monitor the queueing needed by viewing the match live stream. 
  
 ### Pit and Queueing Display
-A large screen display or projector is setup for the Pit and Queueing displays. This is typically near Pit Admin and Inspection. Connect the network cable to a computer from the AV totes or a laptop, or connect to the venue's wifi if a hardwired connection is not available. Refer to [Pit Display Setup](../pit-display-setup) for more information on setting up the displays.
+A large screen display or projector is setup for the Pit and Queueing displays. This is typically near Pit Admin and Inspection. Connect the network cable to a computer from the AV totes or a laptop, or connect to the venue's wifi if a hardwired connection is not available. Refer to [Pit Display Setup](../pit-displays) for more information on setting up the displays.
 
 Instructions to verify the computer's IP address:
 
