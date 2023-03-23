@@ -16,4 +16,4 @@ Documentation to aid the volunteering experience as a FiM AV Volunteer
 
 ## Quick References
 
-- [Audio level recommendations](./docs/audio-volume.md)
+- [Audio level recommendations](./docs/audio-volume)
