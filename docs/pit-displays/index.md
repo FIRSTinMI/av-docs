@@ -12,6 +12,8 @@ The current URL for FiM Queueing is <https://fim-queueing.web.app>
 
 Your AV cart should have received a DM containing instructions setting up your pit displays as well as the event key to use for FiM Queueing. If you did not receive an event key please request assistance in the #av-private channel in Slack from your AV cart.
 
+Pit displays no longer require a direct connection to the field's network, it also does not require any special software running on the AV cart. The only requirement is that FMS running in online mode and syncing data. Simply go to the URL above and use your event key, and data will update from the cloud.
+
 ## One TV
 
 The current recommendation with 1 TV available in the pits is to utilize the FiM queueing display with the following setup:
