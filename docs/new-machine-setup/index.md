@@ -58,3 +58,5 @@ The following software is required to be installed on the AV Cart.  If you are s
         - Create/Sign into a Teamviewer Account for the cart
         - Add the cart to the FiM TeamViewer account
         - Register a static password for the cart within the advanced settings
+
+10. TODO: More Documentation about Storage Spaces and the disk cloning setup
