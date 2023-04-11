@@ -6,7 +6,7 @@ title: Pit Displays
 # Pit Displays
 
 {: .note }
-The current URL for FiM Queueing is <https://fim-queueing.web.app>
+The current URL for FiM Queueing is <https://q.fimav.us>
 
 ## Setting up
 
