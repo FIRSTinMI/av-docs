@@ -27,4 +27,6 @@ Your live stream on vMix should be using "BusA". Open your stream settings and c
 
 In vMix, there should be a bunch of audio sliders in the bottom right of the main window. Look for one named similarly to "Audio In 17+8". First, ensure "A" is selected and "M" is not, also ensure the green bar near it is jumping around. When someone's talking, you're looking for the levels to be near the top but not in the red.
 
+If you don't see any movement at all, try resetting the input. You can do this by finding the input in the main grid of videos, right click on the black rectangle, and click "Reset".
+
 If the levels seem low, open the settings for that audio channel in vMix and increase the gain until the mic levels are near the top but not red.
