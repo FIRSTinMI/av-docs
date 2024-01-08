@@ -1,14 +1,13 @@
 ---
 layout: default
 title: Day -1 and 0
-last_modified_date: "2021-02-01T00:00:00Z"
 ---
 
 # Day -1 and 0 (Typically Wed/Thurs)
 {: .no_toc }
 
 {: .warning }
-This content is in the process of being updated, and may be a bit out of date.
+This content is in the process of being updated for the 2024 season, and may be a bit out of date.
 
 1. TOC
 {:toc}
