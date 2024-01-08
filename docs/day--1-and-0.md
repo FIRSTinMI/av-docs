@@ -7,7 +7,7 @@ title: Day -1 and 0
 {: .no_toc }
 
 {: .warning }
-This content is in the process of being updated, and may be a bit out of date.
+This content is in the process of being updated for the 2024 season, and may be a bit out of date.
 
 1. TOC
 {:toc}

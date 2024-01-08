@@ -7,7 +7,7 @@ title: Setting up the FiM AV System
 {: .no_toc }
 
 {: .warning }
-This content is in the process of being updated, and may be a bit out of date or incomplete.
+This content is in the process of being updated for the 2024 season, and may be a bit out of date or incomplete.
 
 - TOC
 {:toc}
@@ -42,7 +42,7 @@ This content is in the process of being updated, and may be a bit out of date or
 - Note the IP addresses assigned to 
     - Vlan 10 Internet 
     - Vlan 20 Field 
-    - Vlan 30 AV (will be 192.168.25.101-105) 
+    - Vlan 30 AV (will be 192.168.25.10x) 
  
 The internet IP address is the school/venue assigned IP. It is needed for live streaming, recorded match uploading,the Pit Display, the Queueing Display, remote support, etc.
 
