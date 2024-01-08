@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Setting up the FiM AV System
-last_modified_date: "2021-02-01T00:00:00Z"
 ---
 
 # Setting up the FiM AV System

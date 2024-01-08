@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Day -1 and 0
-last_modified_date: "2021-02-01T00:00:00Z"
 ---
 
 # Day -1 and 0 (Typically Wed/Thurs)
