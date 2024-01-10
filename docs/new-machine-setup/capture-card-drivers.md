@@ -4,6 +4,8 @@ title: Install Capture Card Drivers
 parent: New Machine Setup
 ---
 
+{% include staff-only.md %}
+
 # Capture Card Drivers
 Most drivers are installed automatically, but some require manual installation.  The following steps will walk you through installing the drivers for the capture card.
 

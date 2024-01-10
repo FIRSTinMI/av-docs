@@ -4,6 +4,8 @@ has_children: true
 title: New Machine Setup
 ---
 
+{% include staff-only.md %}
+
 # New AV Cart Setup
 This section will include all of the documentation and guides for setting up a new AV Cart.  This includes setting up the network, installing software, and configuring the cart.
 

@@ -4,6 +4,8 @@ title: Setup Realtek Vlans
 parent: New Machine Setup
 ---
 
+{% include staff-only.md %}
+
 # Realtek Vlans
 The AV Cart communicates with 3 separate networks through the motherboard's onboard network interface card (NIC).  This is done by utilizing
 vlan trunking.  This requires a special setup on the AV Cart's side to accept these vlans.  

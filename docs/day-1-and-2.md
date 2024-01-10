@@ -7,7 +7,7 @@ title: Day 1 and 2
 {: .no_toc }
 
 {: .warning }
-This content is in the process of being updated for the 2024 season, and may be a bit out of date or incomplete.
+This content is in the process of being updated for the 2024 season, and may change slightly before week 0.
 
 1. TOC
 {:toc}

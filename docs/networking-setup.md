@@ -5,13 +5,10 @@ title: Networking Setup
 
 # Networking Setup
 
-{: .warning }
-This content is in the process of being updated, and may not yet be accurate for all AV carts.
-
 {: .note }
 You should not need to change the IP addresses or any network settings of any devices. If you believe an AV cart has been configured incorrectly, reach out in the #av-help Slack channel before making any modifications.
 
-_FIRST_ in Michigan AV networks (VLAN 30) follow a predictable IP addressing scheme, where all addresses include the cart number to avoid conflicts during events where more than one cart is on the same LAN. For all addresses below, `x` is the cart number (for carts 1-9).
+_FIRST_ in Michigan AV networks follow a predictable IP addressing scheme, where all addresses include the cart number to avoid conflicts during events where more than one cart is on the same LAN. For all addresses below, `x` is the cart number (for carts 1-9).
 
 | Device         | IP Address     |
 | -------------- | -------------- |

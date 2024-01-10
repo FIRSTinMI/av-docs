@@ -6,7 +6,7 @@ title: Emergency Procedures
 # Emergency Procedures
 
 {: .note }
-Emergencies can be divided into two types; serious technical issues, or situations which pose a danger to people in the event (such as severe weather or a fire). This page only covers the second type of emergency.
+Emergencies can be divided into two types; serious technical issues, or situations which pose a danger to people at the event (such as severe weather or a fire). This page only covers the second type of emergency.
 
 An emergency is a rare occurrence, and while it's unlikely you will encounter one during your event, it's still helpful to have a reference of what to do.
 
