@@ -1,11 +1,21 @@
 ---
 layout: default
 title: 'What&apos;s New in 2024'
-nav_order: 2
+nav_order: 1
 ---
 
 # What&apos;s New in 2024
 {: .no_toc }
+
+## Cameras and Packing
+
+The setup is pretty much the same this year as last year, with a few minor changes:
+
+- All cameras now support NDI, this means you only need to run one cable (the blue Ethernet cable) to each camera
+- Pit display computers have been replaced with newer hardware. There is one provided for each trailer
+- There's a new 27" monitor for AV. It's easy to assemble and disassemble without tools, the monitor's base can be stored inside the AV cart above the drawer
+- We've upgraded some of the components inside of the AV servers, which will alleviate the minor performance bottlenecks found in the 2023 season
+- We've consolidated to one gray tote, down from the 2 we've previously had
 
 ## Pit Displays
 
@@ -20,7 +30,7 @@ FiM's stream graphics solution has gained more functionality this season, allowi
 ![A screenshot of the overlay with some options enabled](./assets/overlay.png)
 *A screenshot of the overlay with some options enabled*
 
-A page has been added to allow management of these graphics, where you can make as many changes as you want, and they'll all go live at once when "apply" is clicked. Only official FiM AV Google accounts have access to this functionality, if you want your personal account to have permission for your specific event, please request it in #av-private in Slack.
+A page has been added to allow management of these graphics, where you can make as many changes as you want, and they'll all go live at once when "apply" is clicked. All official FiM AV Google accounts have access to this functionality (which are already signed in on the carts), if you want your personal account to have permission for your specific event, please request it in #av-private in Slack.
 
 The management interface can be found at `https://q.fimav.us/manage/options`.
 
