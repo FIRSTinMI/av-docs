@@ -20,11 +20,11 @@ parent: Day -1 and 0
 
 <div class="d-flex" style="gap: 0.5em; max-width: 100vw; flex-wrap: wrap;">
     <div style="min-width: 300px; width: 40%;">
-        <img src="../assets/av-tote-inside-1.jpg" class="w-100" />
+        <img src="../assets/av-tote-inside-1.jpg" alt="AV tote as packed" class="w-100" />
         <div class="text-center">Tote as packed</div>
     </div>
     <div style="min-width: 300px; width: 40%;">
-        <img src="../assets/av-tote-inside-2.jpg" class="w-100" />
+        <img src="../assets/av-tote-inside-2.jpg" alt="AV tote with cables removed" class="w-100" />
         <div class="text-center">Tote with cables removed</div>
     </div>
 </div>
