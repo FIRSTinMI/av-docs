@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-nav_order: 1
+nav_order: -9999
 description: "FiM AV Documentation"
 permalink: /
 ---
@@ -18,6 +18,7 @@ Documentation to aid the experience as a FiM AV Volunteer
 
 - [Queueing Display and Stream Graphics](https://q.fimav.us) (https://q.fimav.us)
 - [FiM AV Google Drive](https://drive.google.com/drive/u/0/folders/0AE4tkBWqgMJGUk9PVA) (note: only accessible from the AV carts)
+- [DJ Resources](https://drive.google.com/drive/folders/1-dUEByNP5_U1e5EfbRJBeS1Eez3ehOVi?usp=drive_link) (note: only accessible from the AV carts)
 - I'm a new volunteer, where do I start? -- Check out [Day -1 and 0](docs/day--1-and-0)
 
 ---
