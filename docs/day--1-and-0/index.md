@@ -79,4 +79,4 @@ A large screen display or projector is setup for the Pit and Queueing displays. 
 
 ## You're Set Up!
 
-Congrats, the hardest part is done. It's time to make your way over to [Setting up the FiM AV System](../setting-up-the-fim-av-system). It has a few quick steps that you should take the night before opening ceremonies to ensure everything runs smoothly in the morning.
+Congrats, the hardest part is done. It's time to make your way over to [Setting up the FiM AV System](../setting-up-the-fim-av-system). It walks you through what you need to do to get the computer in the AV cart set up for streaming.
