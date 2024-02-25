@@ -77,7 +77,7 @@ FIRST game-specific updates may slightly change the look or operation of Audienc
     - Click the down triangle on the Open button at the top left 
     - Browse to the Events folder for your event and select the .vmix file  -->
 
-Open the standard 2024 FRC vMix preset. If you have difficulty finding this please reach out for help in #av-help in Slack. Make sure you save your vMix config to your own event folder, please don't overwrite other events' configs.
+Put a copy of the default configuration into your event folder. It can be found in Google Drive at "FiM-AV > Cart-Setup > vMix > FiMVideo1DefaultFRC-2024.vmix". If you have difficulty finding this please reach out for help in #av-help in Slack. Double check that you're using the copy in your event folder, so you don't overwrite other events' configs.
 
 This will open several inputs and input tabs: 
 
