@@ -13,6 +13,12 @@ You'll know if your stream to Twitch is successful if a messaage is sent in the 
 
 Try to go to <https://restream.io>, to make sure that you're actually connected to the internet.
 
+## 2. Check Stream Settings
+
+Compare all settings in the Stream dialog to the screenshot below. Pay special attention to the highlighted quality field, every word of it is important to be correct for match videos to post to YouTube automatically.
+
+![Recommended Stream Settings](../assets/recommended-stream-settings.png)
+
 ## 2. Double-Check Your Stream Credentials
 
 An incorrect stream key can look a lot like Restream being blocked. Double check it's been copy-pasted correctly, or ask for it to be resent as a DM to the cart.
