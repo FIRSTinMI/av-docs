@@ -12,8 +12,8 @@ _FIRST_ in Michigan AV networks follow a predictable IP addressing scheme, where
 
 | Device         | IP Address     |
 | -------------- | -------------- |
-| AV Cart        | 192.168.25.10x |
-| Network Switch | 192.168.25.1x  |
+| AV Cart        | 192.168.25.1x  |
+| Network Switch | 192.168.25.10x |
 | Camera 1       | 192.168.25.x1  |
 | Camera 2       | 192.168.25.x2  |
 | Audio Mixer    | 192.168.25.x3  |
