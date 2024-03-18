@@ -2,6 +2,7 @@
 layout: default
 title: Day -1 and 0
 has_children: true
+nav_order: 11
 ---
 
 # Day -1 and 0 (Typically Wed/Thurs)
