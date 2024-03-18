@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Setting up the FiM AV System
+nav_order: 12
 ---
 
 # Setting up the FiM AV System
