@@ -42,7 +42,7 @@ When you log in to the computer, FIM AV Assistant should automatically pop up. C
     - Vlan 20 Field 
     - Vlan 30 AV (will be 192.168.25.10x) 
  
-The internet IP address is the school/venue assigned IP. It is needed for live streaming, recorded match uploading,the Pit Display, the Queueing Display, remote support, etc.
+The internet IP address is the school/venue assigned IP. It is needed for live streaming, pulling in videos from the script, remote support, etc.
 
 The Field IP address is the FMS assigned IP. It is needed for Audience Display.
 
@@ -112,23 +112,26 @@ Opening video input tips:
 - The video will always start at the beginning no matter where it was left for testing 
  
 ### 4. Sponsor PowerPoint / Video 
-- Launch Powerpoint and open your specific District file found in the FRC folder. There is a FRC folder shortcut on the desktop. Folders are organized by event week then name. 
+- Open the sponsor slideshow in your event-specific folder. For instructions on finding this, see [Google Drive Layout](../google-drive). Folders are organized by event name.
 - Verify or add any event specific sponsors to the slide show.
+- Export that slideshow to PowerPoint and open the PowerPoint file
+- Add in the video from HQ. See [Google Drive Layout](../google-drive) for help finding its location.
 - Once complete, export the slide show to a .mp4 file 
     - File – Export – Create a Video 
-    - HD 720p 
-    - Create Video 
+    - HD 1080p 
+    - Create Video
 - Monitor the progress. This will take several minutes.  
 - After complete, return to vMix 
 - Add Input – Video 
 - Select the video file you created 
 - Close PowerPoint 
 
-### 5. Verify Stream  
-- Click the Stream button. It should turn red and stay red until stopped by clicking the button again. A notification should be sent to the #av-alerts channel in Slack saying that your channel went live on Twitch. If that alert is not sent, or it shows the wrong Twitch channel, it means something is wrong with your stream.
-- The stream settings will be provided by *FIRST*. After week 1, the settings will be saved. 
+### 5. Verify Stream
+- Load in your stream keys with FIMAV Assistant. Open FIMAV Assistant, and in the vMix menu click on "Set Stream Keys".
+- In the stream settings window (the gear next to the stream icon) check that your quality includes "1080p" and "BusA".
+- Click the Stream button. After a few seconds, it should turn red and stay red until stopped by clicking the button again. A notification should be sent to the #av-alerts channel in Slack saying that your channel went live on Twitch. If that alert is not sent, or it shows the wrong Twitch channel, it means something is wrong with your stream.
 - Notes about streaming 
-    - The Audio input 17+18 sends the mixer output to Bus 1 into vMix assigned to Bus A 
+    - The Audio input 17+18 sends the mixer output from Bus 1 into vMix assigned to Bus A 
     - Bus A is configured for both the Stream and Record functions. 
     - There is a sound diagram in the AV folder shortcut on the desktop
 
