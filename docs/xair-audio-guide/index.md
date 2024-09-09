@@ -37,14 +37,14 @@ For more info on audio volume, refer to [Audio Volume](../audio-volume)
  
 ### 2. Mute
 
-Each input, and output on the right side of the faders, will have a mute button under it. If its red then its muted, otherwise it is unmuted.<br>
+Each input and output, will have a mute button under it. If its red then its muted, otherwise it is unmuted.<br>
 
 When an input is muted, it will still have a visible audio level, however it will stop sending audio to ***ALL*** Buses!<br>
 
-**Unmuted**<br>
+*Unmuted*<br>
 ![Unmuted Audio](../xair-audio-guide/assets/unmuted-audio-out.png)
 
-**Muted**<br>
+*Muted*<br>
 ![Audio Levels](../xair-audio-guide/assets/muted-audio-out.png)
 
 If you want to just remove an audio source on a single bus (For Example: the Live Stream bus), slide the fader on that input all the way down the bottom on that fader instead of muting it.
