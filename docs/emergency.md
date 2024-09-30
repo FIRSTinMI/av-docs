@@ -17,4 +17,5 @@ This document covers steps that are applicable for many situations, but use your
 3. **Mute all audio except for microphones.** Game sounds, music, or other audio in the venue can make it harder to hear instructions.
 4. **Keep yourself safe.** Your safety and the safety of everyone else is the priority. Make sure the information everyone needs to know has been shared and get yourself to a safe place.
 5. **Be aware of what you're streaming.** Consider what is being broadcast to the internet. If necessary, utilize the FTB (Fade to Black) button in vMix or stop your stream entirely.
-6. As the situation progresses, management of the emergency may be passed from the Event Coordinator to local emergency services. Continue to provide any assistance they need in getting announcements out.
+   1. If you are unable to stop the stream from the AV computer, reach out to a member of @av-staff in Slack or via other communication channels. There are tools in place which allow us to remotely control the AV carts/live streams.
+7. As the situation progresses, management of the emergency may be passed from the Event Coordinator to local emergency services. Continue to provide any assistance they need in getting announcements out.
