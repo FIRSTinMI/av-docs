@@ -1,5 +1,5 @@
 <blockquote class="highlight mb-4 d-flex">
-<img class="mr-2" role="presentation" src="/assets/imgs/draft-icon.svg" />
+<img class="mr-2" role="presentation" alt="Draft Icon" src="/assets/imgs/draft-icon.svg" />
 <div markdown="block">
 This page is still in the process of being written. Information here may be incomplete.
 {: .my-1 }
