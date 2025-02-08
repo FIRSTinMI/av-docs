@@ -1,0 +1,8 @@
+@use 'sass:color';
+
+$base-brand-color: #0066b3;
+
+$brand-000: color.scale($base-brand-color, $lightness: 15%);
+$brand-100: color.scale($base-brand-color, $lightness: 0%);
+$brand-200: color.scale($base-brand-color, $lightness: -15%);
+$brand-300: color.scale($base-brand-color, $lightness: -30%);
