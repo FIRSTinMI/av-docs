@@ -1,0 +1,11 @@
+@use 'sass:color';
+@import '../custom/_setup';
+
+$sidebar-color: color.scale($base-brand-color, $lightness: 98%);
+$feedback-color: color.scale($sidebar-color, $lightness: -5%);
+$link-color: color.scale($base-brand-color, $lightness: 10%);
+$btn-primary-color: $base-brand-color;
+
+.nav-list .nav-list-item .nav-list-link {
+  color: color.scale($base-brand-color, $lightness: -20%);
+}
