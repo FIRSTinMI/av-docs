@@ -10,12 +10,12 @@ You should not need to change the IP addresses or any network settings of any de
 
 _FIRST_ in Michigan AV networks follow a predictable IP addressing scheme, where all addresses include the cart number to avoid conflicts during events where more than one cart is on the same LAN. For all addresses below, `x` is the cart number (for carts 1-9).
 
-| Device         | IP Address     |
-| -------------- | -------------- |
-| AV Cart        | 192.168.25.1x  |
-| Network Switch | 192.168.25.10x |
-| Camera 1       | 192.168.25.x1  |
-| Camera 2       | 192.168.25.x2  |
-| Audio Mixer    | 192.168.25.x3  |
+| Device            | IP Address     |
+|-------------------| -------------- |
+| AV Cart           | 192.168.25.1x  |
+| Network Switch    | 192.168.25.10x |
+| Sony Camera       | 192.168.25.x1  |
+| PTZ Optics Camera | 192.168.25.x2  |
+| Audio Mixer       | 192.168.25.x3  |
 
 <!-- TODO: Confirm addressing of mixer against actual current configuration -->

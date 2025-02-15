@@ -15,7 +15,16 @@ Our new recommended setup for the included StreamDeck is [BitFocus Companion](ht
 
 ## New Camera
 
-We're starting to include new Sony PTZ cameras this year, more details to come soon!
+We're starting to include new Sony PTZ cameras this year! Your AV setup will include 1 [Sony PTZ camera](https://pro.sony/ue_US/products/ptz-network-cameras/srg-a40) and 1 PTZ Optics camera. The PTZ Optics camera is the same one as in previous years.
+
+One particularly notable feature that can make your life easier in opening ceremonies is auto tracking, which can be configured in the web interface. More info can be found in [this YouTube video](https://www.youtube.com/watch?v=SsSU9sPqYhg).
+
+| Camera     | IP Address    |
+|------------|---------------|
+| Sony       | 192.168.25.x1 |
+| PTZ Optics | 192.168.25.x2 |
+
+Where `x` is your cart number.
 
 ## And More
 
