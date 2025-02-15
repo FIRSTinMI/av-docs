@@ -14,20 +14,20 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        jekyll-version: [4.3]
-        ruby-version: [3.1]
+        jekyll-version: [4.4.1]
+        ruby-version: [3.4.2]
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 3.1
+        ruby-version: ${{ matrix.ruby-version }}
         bundler-cache: false
     - name: Bundle Install
       run: bundle install
     - name: Install Jekyll
-      run: gem install jekyll -v 4.3
+      run: gem install jekyll -v ${{ matrix.jekyll-version }}
     - name: Build Site
       run: bundle exec jekyll build
     - name: HTML Proofer
