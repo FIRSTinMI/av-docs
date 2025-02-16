@@ -7,7 +7,7 @@ nav_order: 0
 # Broadcast Style Recommendations
 {: .no_toc }
 
-This page provides our recommendations for how you can set up your graphics and run your broadcast. We've found this to work well, but you're welcome to use all, part, or none of it. Requirements for the broadcast can be found elsewhere on this site. If you have questions about these recommendations, or aren't sure how to do any of them, reach out for help to the friendly people in the **[#av-help](https://first-in-michigan.slack.com/archives/C04PTSR77H7)** channel on Slack!
+This page provides our recommendations for how you can set up your graphics and run your broadcast. We've found this to work well, but you're welcome to use all, part, or none of it. Requirements for the broadcast can be found elsewhere on this site. If you have questions about these recommendations, or aren't sure how to do any of them, reach out for help to the friendly people in the {% include slack-av-help.md %}!
 
 ## Overlays
 - Make use of our live captions, this makes your event more accessible to people who are deaf or hard of hearing. We recommend placing these captions at the bottom of your screen, with a separate color set up for each microphone (the default configuration is red and blue). Use overlay number 4 in vMix for this.

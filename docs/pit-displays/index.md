@@ -39,4 +39,4 @@ Click start to finish setup of the display.
 
 Ultimately what you put on each of these displays is up to you. If your pit admin staff or queuers have other requests for these screens you're free to show those instead. FiM Queueing provides quick access to the commonly used pages shown, but any page can be pulled up in Chrome.
 
-If you'd like advice on what to show, feel free to reach out in #av-help on Slack.
+If you'd like advice on what to show, feel free to reach out in {% include slack-av-help.md %}.
