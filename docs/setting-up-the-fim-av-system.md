@@ -23,7 +23,7 @@ nav_order: 12
 - Connect cameras to ports 14 and 15 of the network switch.
 - Connect the projector coax to the HDMI to SDI converter output.
 - Power on the UPS.
-    - If it does not power, the battery cable has most likely disconnected. Simply remove the four Philips screws on the cover to access the Anderson connector. You may have to push it in gently with a flat blade screwdriver. If you don't feel comfortable doing this on your own, reach out to #av-help in Slack.
+    - If it does not power, the battery cable has most likely disconnected. Simply remove the four Philips screws on the cover to access the Anderson connector. You may have to push it in gently with a flat blade screwdriver. If you don't feel comfortable doing this on your own, reach out to the {% include slack-av-help.md %}.
 - Power on the computer.
 - Log on to the computer. If you don't know the password, ask an FTA.
 - It may take a few minutes for all of the networking equipment to start up and connect. Let the machine sit for 5 minutes after logging in for the first time before moving on.
@@ -78,7 +78,7 @@ FIRST game-specific updates may slightly change the look or operation of Audienc
     - Click the down triangle on the Open button at the top left 
     - Browse to the Events folder for your event and select the .vmix file  -->
 
-Put a copy of the default configuration into your event folder. It can be found in Google Drive at "FiM-AV > Cart-Setup > vMix > FiMVideo1DefaultFRC-2024.vmix". If you have difficulty finding this please reach out for help in #av-help in Slack. Double check that you're using the copy in your event folder, so you don't overwrite other events' configs.
+Put a copy of the default configuration into your event folder. It can be found in Google Drive at "FiM-AV > Cart-Setup > vMix > FiMVideo1DefaultFRC-2024.vmix". If you have difficulty finding this please reach out for help in the {% include slack-av-help.md %}. Double check that you're using the copy in your event folder, so you don't overwrite other events' configs.
 
 This will open several inputs and input tabs: 
 

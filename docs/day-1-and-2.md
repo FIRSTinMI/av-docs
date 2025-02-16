@@ -20,7 +20,7 @@ nav_order: 13
   - Sit down at the AV cart and go through the script, we recommend highlighting or circling any videos so they're easy to see
   - As you come across each video, find it in Google Drive and drag it in to vMix. Check that it plays
   - If there is a performer for the national anthem, be sure to **turn off sound** for the American flag video
-  - If you can't find any videos, reach out to #av-help in Slack
+  - If you can't find any videos, reach out to the {% include slack-av-help.md %}
 - Save your vMix config
 
 ## Friday   
