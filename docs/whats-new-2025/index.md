@@ -26,9 +26,13 @@ One particularly notable feature that can make your life easier in opening cerem
 
 Where `x` is your cart number.
 
+## vMix Upgraded
+
+In the offseason, we upgraded vMix on all the AV carts to version 28. The company behind vMix has a post about all of the new major features [on their blog](https://blog.vmix.com/vmix-28-is-available-now/).
+
 ## And More
 
-We're always improving the AV volunteer experience, both during the season and off-season. There may be some additional small changes to equipment or tools.
+We're always improving the AV volunteer experience, both during the season and in the off-season. There may be some additional small changes to equipment or tools.
 
 ## Previous Years
 
