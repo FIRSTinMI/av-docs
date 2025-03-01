@@ -16,8 +16,7 @@ parent: Software Guides
 This guide covers the setup and troubleshooting of captions for FIM events.
 
 ## Adding the Captions to vMix
-The input needed to overlay captions in vMix can be automatically added from the AV Assistant
-![Add Captions Input](assets/add-input.png)
+The input needed to overlay captions in vMix can be automatically added from the AV Assistant menu "vMix > Add Live Captions input"
 
 Set the captions input as the 4th overlay, it should be the highest overlay so that it is visible on top of FMS when scores are posted.
 
