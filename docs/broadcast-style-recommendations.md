@@ -12,6 +12,7 @@ This page provides our recommendations for how you can set up your graphics and 
 ## Overlays
 - Make use of our live captions, this makes your event more accessible to people who are deaf or hard of hearing. We recommend placing these captions at the bottom of your screen, with a separate color set up for each microphone (the default configuration is red and blue). Use overlay number 4 in vMix for this.
   - Live captions configuration can be accessed via AV Assistant
+  - More information can be found in the [software guide](/docs/software-guides/captions/)
 - Place the real-time scoring from Audience Display on the top half of the screen, with red and blue matching the sides of the field from the camera's perspective. Use overlay number 3 in vMix for this. If you're using the rankings ticker you may need to move it up a bit so it doesn't conflict.
   - Audience Display configuration can be accessed by right clicking the window in the taskbar
 - Use the rankings ticker during qualification matches. This shows a live view of each team's placement in the event. Use overlay number 2 for this.
