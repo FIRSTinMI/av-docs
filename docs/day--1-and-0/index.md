@@ -29,7 +29,7 @@ Discuss/confirm location of AV cart and Field system with FTA. Typically, it is 
 
 ### Internet Connection
 
-Locate the internet connection to be used. If the venue has not supplied an ethernet cable to the scoring table, run a cable from the jack as needed. Consult with FTA and Lead Queuing as needed to consider cable paths. Connect the cable to port 1 of the AV cart switch. 
+Locate the internet connection to be used. If the venue has not supplied an ethernet cable to the scoring table, run a cable from the jack as needed. Consult with FTA and Lead Queuing as needed to consider cable paths. For most events, internet will be run into a network box managed by the FTAs and then will run in to port 7 on the AV cart. This cable will provide internet access and access to the field network.
  
 ### Power
 

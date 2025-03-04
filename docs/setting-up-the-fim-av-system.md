@@ -17,9 +17,12 @@ nav_order: 12
 - Connect the UPS power cord to a source separate from the field system.
 - Connect a keyboard and mouse to the AV computer usb ports.
 - Note: the monitor power and DisplayPort cables should be already connected and coiled. Please do not disconnect and pack these. Simply connect the monitor to the power and DisplayPort cables.
-- Connect the school internet to port 1 of the network switch.
-- Connect the FIRST field internet to port 2 of the network switch.
-- Connect the FIRST field network (10.0.100.0/5) to port 7 of the network switch.
+- If using the network box (UDM Pro)
+  - Connect the network box to port 7 of the AV switch for both internet and field access.
+- If an FTA decides to use an alternative setup
+  - Connect the school internet to port 1 of the network switch.
+  - Connect the FIRST field internet to port 2 of the network switch.
+  - Connect the FIRST field network (10.0.100.0/5) to port 7 of the network switch.
 - Connect cameras to ports 14 and 15 of the network switch.
 - Connect the projector coax to the HDMI to SDI converter output.
 - Power on the UPS.
@@ -62,7 +65,7 @@ FIRST game-specific updates may slightly change the look or operation of Audienc
     - Real-Time Score Type: "\[Default\] Full Width"
     - Real-Time Score Vertical: "\[Flipped\] Top of Screen"
     - Real-Time Score Horizontal: *Whatever matches your camera's perspective*
-    - Award Display Type: "\[Alternate\] Web Display"
+    - Award Display Type: "\[Alternate\] Live Stream Bug"
     - Click Save Changes or Cancel to exit the dialog box 
  
 ### 3. Launch vMix
@@ -78,7 +81,7 @@ FIRST game-specific updates may slightly change the look or operation of Audienc
     - Click the down triangle on the Open button at the top left 
     - Browse to the Events folder for your event and select the .vmix file  -->
 
-Put a copy of the default configuration into your event folder. It can be found in Google Drive at "FiM-AV > Cart-Setup > vMix > FiMVideo1DefaultFRC-2024.vmix". If you have difficulty finding this please reach out for help in the {% include slack-av-help.md %}. Double check that you're using the copy in your event folder, so you don't overwrite other events' configs.
+**Put a copy of the default configuration into your event folder.** It can be found in Google Drive at "FiM-AV > Cart-Setup > vMix > 2025-Reefscape-FiMVideo#.vmix". If you have difficulty finding this please reach out for help in the {% include slack-av-help.md %}. Double check that you're using the copy in your event folder, so you don't overwrite other events' configs.
 
 This will open several inputs and input tabs: 
 
@@ -91,14 +94,15 @@ This will open several inputs and input tabs:
 
 **For rankings:** Your cart should have received a DM on slack with your pit display event key. Follow the instructions in that message to log in to the FiM Queueing app on the AV cart, and use the instructions on the "Manage Options" page to add the rankings display and stream graphics to vMix.
 
-Note the colored input tabs for Game (Red) and Opening (Green). Each input cog(little gear icon) for settings willbe colored for the tab it is assigned. This makes it easy to select the green Opening tab for the various videos needed for opening ceremonies, and later selecting the red Game tab to only see the camera and Audience Display. 
+<!-- Note the colored input tabs for Game (Red) and Opening (Green). Each input cog(little gear icon) for settings willbe colored for the tab it is assigned. This makes it easy to select the green Opening tab for the various videos needed for opening ceremonies, and later selecting the red Game tab to only see the camera and Audience Display.  -->
  
 vMix is a video switching application. Basic use: 
 
-- The second monitor is the projector. The top right window in vMix is the currently showing input 
+- The second monitor is the projector. The top right window in vMix is the input that's currently live. 
 - The Preview window is the top left.
-- Selecting various inputs will put them in the Preview screen. 
-- Select a transition button between the Preview and Live screens to change the input. 
+- Selecting various inputs will put them in the Preview screen.
+- Select a transition button between the Preview and Live screens to change the input.
+- Buttons are available on the StreamDeck to immediately cut to commonly used inputs
 
 vMix provides an extensive library of tutorial videos on YouTube for greater detail. 
  
@@ -113,6 +117,10 @@ Opening video input tips:
 - The video will always start at the beginning no matter where it was left for testing 
  
 ### 4. Sponsor PowerPoint / Video 
+
+{: .note }
+It's important that you use the sponsor slideshow for your specific event, not the generic FIRST Suppliers slideshow or a draft version.
+
 - Open the sponsor slideshow in your event-specific folder. For instructions on finding this, see [Google Drive Layout](../google-drive). Folders are organized by event name.
 - Verify or add any event specific sponsors to the slide show.
 - Export that slideshow to PowerPoint and open the PowerPoint file
@@ -126,6 +134,7 @@ Opening video input tips:
 - Add Input – Video 
 - Select the video file you created 
 - Close PowerPoint 
+- Turn on loop for the newly created input
 
 ### 5. Verify Stream
 - Load in your stream keys with FIMAV Assistant. Open FIMAV Assistant, and in the vMix menu click on "Set Stream Keys".
