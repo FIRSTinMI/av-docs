@@ -57,15 +57,15 @@ The AV IP address is needed for the sound mixer and camera control.
 {: .note }
 FIRST game-specific updates may slightly change the look or operation of Audience Display.
 
-- Use the FIRST Audience Display shortcut located on the Windows desktop 
-- Ctrl-Shift-F12 accesses the Audience Display dialog box to set options. Options should be set as follows: 
+- Use the FIRST Audience Display shortcut located on the Windows desktop or search "Primary Display" in the Start menu. 
+- Ctrl-Shift-C accesses the Audience Display dialog box to set options. Options should be set as follows: 
     - Chroma Background Fuchsia 
     - 720p or 1080p 
     - Center On Screen
     - Real-Time Score Type: "\[Default\] Full Width"
     - Real-Time Score Vertical: "\[Flipped\] Top of Screen"
     - Real-Time Score Horizontal: *Whatever matches your camera's perspective*
-    - Award Display Type: "\[Alternate\] Live Stream Bug"
+    - Award Display Type: "\[Default\] Live Stream Bug"
     - Click Save Changes or Cancel to exit the dialog box 
  
 ### 3. Launch vMix
