@@ -123,17 +123,7 @@ It's important that you use the sponsor slideshow for your specific event, not t
 
 - Open the sponsor slideshow in your event-specific folder. For instructions on finding this, see [Google Drive Layout](../google-drive). Folders are organized by event name.
 - Update the slideshow to add your event name wherever called for, and remove any event-specific sponsors that are not for your event, then save the file.
-<!-- - Export that slideshow to PowerPoint and open the PowerPoint file
-- Add in the video from HQ. See [Google Drive Layout](../google-drive) for help finding its location.
-- Once complete, export the slide show to a .mp4 file 
-    - File – Export – Create a Video 
-    - HD 1080p 
-    - Create Video
-- Monitor the progress. This will take several minutes.   -->
 - After complete, drag the file from the folder in Explorer and drop it over vMix (it may take a few seconds to load in)
-<!-- - Add Input – Video 
-- Select the video file you created 
-- Close PowerPoint  -->
 - Turn on Loop for the newly created input, then right click on the part of the input that shows the slides and open the SlideShow Settings. Set the duration to 5000 milliseconds (5 seconds)
 
 ### 5. Verify Stream
