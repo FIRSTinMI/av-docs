@@ -124,7 +124,7 @@ It's important that you use the sponsor slideshow for your specific event, not t
 - Open the sponsor slideshow in your event-specific folder. For instructions on finding this, see [Google Drive Layout](../google-drive). Folders are organized by event name.
 - Update the slideshow to add your event name wherever called for, and remove any event-specific sponsors that are not for your event, then save the file.
 - After complete, drag the file from the folder in Explorer and drop it over vMix (it may take a few seconds to load in)
-- Turn on Loop for the newly created input, then right click on the part of the input that shows the slides and open the SlideShow Settings. Set the duration to 5000 milliseconds (5 seconds)
+- Turn on Loop for the newly created input, then right click on the part of the input that shows the slides and open the SlideShow Settings. Set the transition to 5 seconds
 
 ### 5. Verify Stream
 - Load in your stream keys with FIMAV Assistant. Open FIMAV Assistant, and in the vMix menu click on "Set Stream Keys".
