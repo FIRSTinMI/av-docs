@@ -54,9 +54,6 @@ The AV IP address is needed for the sound mixer and camera control.
  
 ### 2. Launch Audience Display (note FIRST updates may slightly change the operation) 
 
-{: .note }
-FIRST game-specific updates may slightly change the look or operation of Audience Display.
-
 - Use the FIRST Audience Display shortcut located on the Windows desktop or search "Primary Display" in the Start menu. 
 - Ctrl-Shift-C accesses the Audience Display dialog box to set options. Options should be set as follows: 
     - Chroma Background Fuchsia 
@@ -67,6 +64,9 @@ FIRST game-specific updates may slightly change the look or operation of Audienc
     - Real-Time Score Horizontal: *Whatever matches your camera's perspective*
     - Award Display Type: "\[Default\] Live Stream Bug"
     - Click Save Changes or Cancel to exit the dialog box 
+
+{: .faq }
+If you see pink shadows on Audience Display in vMix even after setting up the chroma key, set the "Red", "Green", and "Blue" sliders to about a third of the way up in the vMix color key settings.
  
 ### 3. Launch vMix
 
