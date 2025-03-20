@@ -21,6 +21,7 @@ These requirements apply to any coverage of a FIM event which is used to create 
   - If you're not sure, ask or default to no
 - Stick to the event script
   - Your event's script has been carefully put together by *FIRST* headquarters, FIM staff, and your event coordinator. It includes content that sponsors require us to show. Unless the script says otherwise, consider any sponsor-related content to be "must play"
+  - MCs and GAs may opt to reference bullet points rather than reading word-for-word for some of the spoken parts of the event script. This is okay as long as the major points in the script are still made.
 
 ## Recommendations
 
