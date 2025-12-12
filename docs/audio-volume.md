@@ -13,7 +13,7 @@ FIRST's guidelines to audio levels at events
 
 ## FIRST's Guidelines
 
-[Can be found here](https://www.firstinspires.org/sites/default/files/uploads/championship/audio-level-expectations-at-first-events.pdf)
+[Can be found here](https://www.firstinspires.org/hubfs/events/audio-level-expectations-at-first-events.pdf?hsLang=en)
 
 ## Helpful guide to implementing and auditing yourself
 

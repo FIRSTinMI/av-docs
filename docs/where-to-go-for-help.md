@@ -21,4 +21,4 @@ Feeling like you need an extra hand? Talk to your **Volunteer Coordinator (VC)**
 
 For any other questions, reach out to the **{% include slack-av-help.md %}** and we can point you in the right direction. Keep in mind that every event is a little different so the first person that you ask may not have all the answers, you can always fall back to Slack where a larger group will see your question and be able to chime in.
 
-*For full descriptions of all volunteer roles, [check this page on the FIRST website](https://www.firstinspires.org/resource-library/frc/volunteer-event-roles-and-training-resources)*.
+*For full descriptions of all volunteer roles, [check this page on the FIRST website](https://www.firstinspires.org/community/volunteers/roles)*.
