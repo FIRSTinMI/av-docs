@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Hardware Photos
 parent: Day -1 and 0
 ---

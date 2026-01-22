@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: 'What&apos;s New in 2025'
 nav_order: 20
+nav_exclude: true
 ---
 
 # What&apos;s New in 2025
@@ -33,9 +34,3 @@ In the offseason, we upgraded vMix on all the AV carts to version 28. The compan
 ## And More
 
 We're always improving the AV volunteer experience, both during the season and in the off-season. There may be some additional small changes to equipment or tools.
-
-## Previous Years
-
-Check these pages for what changed in the previous years:
-
-- [2024](../whats-new-previous-years/whats-new-2024)

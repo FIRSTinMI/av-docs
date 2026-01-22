@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Day 1 and 2
 nav_order: 13
 ---

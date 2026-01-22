@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Setting up the FiM AV System
 nav_order: 12
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Google Drive not Syncing
 parent: Troubleshooting Guides
 ---

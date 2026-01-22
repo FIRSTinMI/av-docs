@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: FIM Captions
 parent: Software Guides
 ---

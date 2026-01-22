@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Home
 nav_order: -9999
 description: "FiM AV Documentation"
@@ -11,17 +11,6 @@ permalink: /
 
 Documentation to aid the experience as a FiM AV Volunteer
 {: .fs-6 .fw-300 }
-
-<blockquote class="highlight mb-4 d-flex">
-<img class="mr-2" src="/assets/imgs/draft-icon.svg" alt="Draft icon" />
-<div markdown="block">
-We're working on preparing this site for the 2026 FRC season, some areas may be unfinished or change in the near future.
-{: .my-1 }
-
-If you would like to help improve FiM AV Docs, [open a PR on GitHub](https://github.com/firstinmi/av-docs)!
-{: .my-1}
-</div>
-</blockquote>
 
 ---
 

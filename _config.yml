@@ -21,6 +21,12 @@ theme: just-the-docs
 
 permalink: pretty
 
+collections_dir: docs
+collections:
+  whats-new-previous-years:
+    output: true
+    permalink: /docs/:path
+
 # Set a path/url to a logo that will be displayed instead of the title
 #logo: "/assets/images/just-the-docs.png"
 
@@ -93,7 +99,7 @@ nav_external_links:
 back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: "Copyright &copy; 2025 <i>FIRST</i> in Michigan AV Team"
+footer_content: "Copyright &copy; 2026 <i>FIRST</i> in Michigan AV Team"
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
