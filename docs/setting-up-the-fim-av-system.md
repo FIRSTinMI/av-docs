@@ -35,9 +35,9 @@ nav_order: 12
  
 ### 1. Check Network Configuration
 
-*Note: FIM AV Assistant is currently in beta.*
+*Note: FiM AV Assistant is currently in beta.*
 
-When you log in to the computer, FIM AV Assistant should automatically pop up. Click next and let it perform hardware checks for the network. If any errors are shown, follow the steps below:
+When you log in to the computer, FiM AV Assistant should automatically pop up. Click next and let it perform hardware checks for the network. If any errors are shown, follow the steps below:
 
 - Run cmd 
 - Use command ‘ipconfig’ 
