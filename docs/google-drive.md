@@ -19,5 +19,4 @@ All of the content that you need for your event can be found in our FiM-AV Share
   - **FIRST Official Media**: Content created by *FIRST*. This folder contains nearly everything called for in your event script
     - **Music and Sound**: Guidelines for DJs and pre-cut music beds for the awards ceremony (optional)
     - **Videos**: When you're looking for something mentioned in your event script, this is the first folder to check
-      - **TODO_DETERMINE_FILENAME**: Embed this video into your event-specific sponsor slideshow before exporting as a video
 - **FTC**: Everything related to FTC events

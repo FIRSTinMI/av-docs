@@ -34,7 +34,7 @@ parent: Day -1 and 0
 
 ## Monitor Case
 
-Note: The larger monitor is dedicated to the AV cart. Please ensure there is some padding between 
+Note: The larger monitor is dedicated to the AV cart. Please ensure there is some padding between the monitors so they don't get scratched.
 
 ![Monitor Case](../assets/monitor-case.jpg)
 
