@@ -8,7 +8,10 @@ parent: Day -1 and 0
 
 ## AV Cart
 
-![AV Cart](../assets/av-cart.jpeg)
+*Shown packed. This is how the cart should look before closing it up at the end of the event*
+
+![AV Cart (front)](../assets/av-cart-front.jpg)
+![AV Cart (back)](../assets/av-cart-back.jpg)
 
 ## Camera Case
 
@@ -31,10 +34,10 @@ parent: Day -1 and 0
 
 ## Monitor Case
 
-Note: The larger monitor is dedicated to the AV cart. The stand for it can be found inside the empty space in the AV cart.
+Note: The larger monitor is dedicated to the AV cart. Please ensure there is some padding between 
 
 ![Monitor Case](../assets/monitor-case.jpg)
 
 ## DJ Laptop
 
-We don't have a picture of this right now, but it's a standard laptop in a laptop bag with a DJ label on it. It gets stored in the cab of the truck (instead of in the trailer), so sometimes it doesn't get unloaded with everything else.
+This is found in a laptop bag with a DJ label on it. It gets stored in the banner tote along with other event laptops.

@@ -56,9 +56,10 @@ nav_order: 13
 - See Friday's [Before 8:00am](#before-800am)
 - Different Opening script/videos 
 - Awards 
-- Chairman Video 
-  - The Judge Advisor will give this to you on a flash drive, be sure to copy it to the computer before dragging it into vMix
-  - Test the playback in vMix, but ensure no sound or video go out on the live stream or to the projector, and be aware of anyone who can see over your shoulder. The winner is confidential until the moment it is announced by the emcee during the awards ceremony. The emcee will cue you to play it.
+- Dean's List Video 
+  - You should receive this by lunchtime. If you don't have it by then, try to find your Judge Advisor and ask for an update.
+  - If the winning team submitted one, the Judge Advisor will give this to you on a flash drive. Be sure to copy it to the computer before dragging it into vMix
+  - After removing the flash drive, test the playback in vMix, but ensure no sound or video go out on the live stream or to the projector, and be aware of anyone who can see over your shoulder. The winner is confidential until the moment it is announced by the emcee during the awards ceremony. The emcee will cue you to play it.
  
 ### Packing up
 

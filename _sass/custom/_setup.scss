@@ -6,3 +6,11 @@ $brand-000: color.scale($base-brand-color, $lightness: 15%);
 $brand-100: color.scale($base-brand-color, $lightness: 0%);
 $brand-200: color.scale($base-brand-color, $lightness: -15%);
 $brand-300: color.scale($base-brand-color, $lightness: -30%);
+
+details {
+    &::details-content {
+        border-left: 2px solid gray;
+        margin-left: 1em;
+        padding-left: 0.5em;
+    }
+}

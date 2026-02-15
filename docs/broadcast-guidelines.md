@@ -19,7 +19,7 @@ These requirements apply to any coverage of a FiM event which is used to create 
 - Do not stream audio/video which you do not have the rights for
   - If it's in the event script, it's probably safe
   - **This includes DJ music**. Music should only be audible inside the venue, not on the livestream bus.
-  - If you're not sure, ask or default to no
+  - If you're not sure, ask or default to not broadcasting it
 - Stick to the event script
   - Your event's script has been carefully put together by *FIRST* headquarters, FiM staff, and your event coordinator. It includes content that sponsors require us to show. Unless the script says otherwise, consider any sponsor-related content to be "must play"
   - MCs and GAs may opt to reference bullet points rather than reading word-for-word for some of the spoken parts of the event script. This is okay as long as the major points in the script are still made.

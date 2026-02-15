@@ -19,11 +19,17 @@ nav_order: 12
 - Note: the monitor power and DisplayPort cables should be already connected and coiled. Please do not disconnect and pack these. Simply connect the monitor to the power and DisplayPort cables.
 - If using the network box (UDM Pro)
   - Connect the network box to port 7 of the AV switch for both internet and field access.
-- If an FTA decides to use an alternative setup
+- <details markdown="block">
+  <summary>If an FTA decides to use an alternative network setup, click to expand</summary>
+  
   - Connect the school internet to port 1 of the network switch.
   - Connect the FIRST field internet to port 2 of the network switch.
   - Connect the FIRST field network (10.0.100.0/5) to port 7 of the network switch.
-- Connect cameras to ports 14 and 15 of the network switch.
+  
+  </details>
+
+- Connect the PTZOptics camera ethernet to port 14 on the switch.
+- Connect the Sony camera ethernet to the red "SonyCam" port
 - Connect the projector coax to the HDMI to SDI converter output.
 - Power on the UPS.
     - If it does not power, the battery cable has most likely disconnected. Simply remove the four Philips screws on the cover to access the Anderson connector. You may have to push it in gently with a flat blade screwdriver. If you don't feel comfortable doing this on your own, reach out to the {% include slack-av-help.md %}.
@@ -34,8 +40,6 @@ nav_order: 12
 ## Setting up the FiM AV Software
  
 ### 1. Check Network Configuration
-
-*Note: FiM AV Assistant is currently in beta.*
 
 When you log in to the computer, FiM AV Assistant should automatically pop up. Click next and let it perform hardware checks for the network. If any errors are shown, follow the steps below:
 
@@ -54,6 +58,12 @@ The AV IP address is needed for the sound mixer and camera control.
  
 ### 2. Launch Audience Display (note FIRST updates may slightly change the operation) 
 
+{: .new }
+Updated Audience Display recommendations coming soon! <!-- TODO -->
+
+<details markdown="block">
+<summary>Legacy desktop-based Audience Display instructions</summary>
+
 - Use the FIRST Audience Display shortcut located on the Windows desktop or search "Primary Display" in the Start menu. 
 - Ctrl-Shift-C accesses the Audience Display dialog box to set options. Options should be set as follows: 
     - Chroma Background Fuchsia 
@@ -67,6 +77,8 @@ The AV IP address is needed for the sound mixer and camera control.
 
 {: .faq }
 If you see pink shadows on Audience Display in vMix even after setting up the chroma key, set the "Red", "Green", and "Blue" sliders to about a third of the way up in the vMix color key settings.
+
+</details>
  
 ### 3. Launch vMix
 
@@ -81,13 +93,13 @@ If you see pink shadows on Audience Display in vMix even after setting up the ch
     - Click the down triangle on the Open button at the top left 
     - Browse to the Events folder for your event and select the .vmix file  -->
 
-**Put a copy of the default configuration into your event folder.** It can be found in Google Drive at "FiM-AV > Cart-Setup > vMix > 2025-Reefscape-FiMVideo#.vmix". If you have difficulty finding this please reach out for help in the {% include slack-av-help.md %}. Double check that you're using the copy in your event folder, so you don't overwrite other events' configs.
+**Put a copy of the default configuration into your event folder.** It can be found in Google Drive at "FiM-AV > Cart-Setup > vMix > 2026-Rebuilt-FiMVideo#.vmix". If you have difficulty finding this please reach out for help in the {% include slack-av-help.md %}. Double check that you're using the copy in your event folder, so you don't overwrite other events' configs.
 
 This will open several inputs and input tabs: 
 
 - Field Cam  
 - PTZ Cam 
-- Audience Display (Desktop capture of the application window) 
+- Audience Display (Desktop capture). Please note that we recommend instead utilizing the web-based version of the Audience Display. See the [Launching Audience Display](#2-launch-audience-display-note-first-updates-may-slightly-change-the-operation) section for more information. 
 - Virtual – Game input (chroma key of Audience Display layered on top of a copy of Field Cam input) 
 - Several Opening videos 
 - Audio In 17+18 
