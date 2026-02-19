@@ -1,13 +1,10 @@
 ---
-layout: page
 title: FiM Captions
 parent: Software Guides
 ---
 
 # FiM Captions Guide
 {: .no_toc }
-
-{% include note-wip.md %}
 
 1. TOC
 {:toc}

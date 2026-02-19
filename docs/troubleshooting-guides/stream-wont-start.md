@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Stream Won't Start
 parent: Troubleshooting Guides
 ---

@@ -1,5 +1,4 @@
 ---
-layout: page
 title: No Signal to Projector
 parent: Troubleshooting Guides
 ---

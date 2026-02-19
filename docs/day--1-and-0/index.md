@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Day -1 and 0
 has_children: true
 nav_order: 11
@@ -18,7 +17,7 @@ This document lists the needed AV tasks to ready the AV equipment for a *FIRST* 
 
 ## Hardware in Your FiM AV Setup
 
-Check out [Hardware Photos](hardware-photos) for a look at what all of the cases in the FiM AV setup look like.
+Check out [Hardware Photos](../hardware-photos) for a look at what all of the cases in the FiM AV setup look like.
 
  
 ## Field – Main Gym 

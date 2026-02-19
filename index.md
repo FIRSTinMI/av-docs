@@ -9,7 +9,7 @@ permalink: /
 # FIRST in Michigan AV Volunteer Documentation
 {: .fs-9 }
 
-Documentation to aid the experience as a FiM AV Volunteer
+Your one-stop shop for all the information about doing A/V with FiM
 {: .fs-6 .fw-300 }
 
 ---
@@ -23,7 +23,10 @@ Documentation to aid the experience as a FiM AV Volunteer
 &nbsp;
 
 - I'm a new volunteer, where do I start?
-  - Check out [Day -1 and 0](docs/day--1-and-0)
+  - We have a few pages which take you step-by-step through what's needed to successfully run an event:
+  - [Day -1 and 0](docs/day--1-and-0)
+  - [Setting up the FiM AV System](docs/setting-up-the-fim-av-system)
+  - [Day 1 and 2](docs/day-1-and-2)
 - I'm at the event and I have a question but I don't know who to ask
   - Check our recommendations in [Where To Go for Help](docs/where-to-go-for-help)
 

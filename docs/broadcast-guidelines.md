@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Broadcast Guidelines
 nav_order: 14
 ---

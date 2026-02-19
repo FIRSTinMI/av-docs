@@ -1,5 +1,4 @@
 ---
-layout: page
 has_children: true
 title: New Machine Setup
 ---

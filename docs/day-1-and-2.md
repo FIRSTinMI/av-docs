@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Day 1 and 2
 nav_order: 13
 ---
@@ -63,4 +62,4 @@ nav_order: 13
  
 ### Packing up
 
- Pack everything up using [Hardware Photos](../day--1-and-0/hardware-photos) as a reference.
+ Pack everything up using [Hardware Photos](../hardware-photos) as a reference.
