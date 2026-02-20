@@ -134,7 +134,7 @@ This will open several inputs and input tabs:
 
 - Field Cam  
 - PTZ Cam 
-- Audience Display (Desktop capture). Please note that we recommend instead utilizing the web-based version of the Audience Display. See the [Launching Audience Display](#2-launch-audience-display-note-first-updates-may-slightly-change-the-operation) section for more information. 
+- Audience Display (Desktop capture). Please note that we recommend instead utilizing the web-based version of the Audience Display. See the [Launching Audience Display](#launch-audience-display) section for more information. 
 - Virtual – Game input (chroma key of Audience Display layered on top of a copy of Field Cam input) 
 - Several Opening videos 
 - Audio In 17+18 
