@@ -4,6 +4,7 @@ task :proofer do
     HTMLProofer.check_directory("./_site", {
         ignore_urls: [
             /github\.com\/firstinmi\/av-docs/,
+            /\:\/\/10.0.100.5/,
             /\:\/\/localhost/,
             /\:\/\/docs.fimav.us/
         ],
