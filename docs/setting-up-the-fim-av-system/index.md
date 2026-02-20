@@ -38,7 +38,7 @@ nav_order: 12
  
 ## Setting up the FiM AV Software
  
-### 1. Check Network Configuration
+### 1. Check Network Configuration {#check-network-configuration}
 
 When you log in to the computer, FiM AV Assistant should automatically pop up. Click next and let it perform hardware checks for the network.
 
@@ -63,57 +63,7 @@ The AV IP address is needed for the sound mixer and camera control.
 
 {% endcomment %}
 
-
-### 2. Launch Audience Display (note FIRST updates may slightly change the operation) {#launch-audience-display}
-
-{: .new }
-2026 has a brand new audience display! Even if you've volunteered before please read this section.
-
-To add the web-based Audience Display to vMix, the easiest way is to do so via AV Assistant. Open the AV Assistant window and under the vMix menu, click "Add Audience Display (Web) input". It should pop up a dialog with some further instructions, follow those. That will add a new input to vMix and set it up so audio is always enabled on it. Bring that input up in preview and hover your mouse over it. Click on "Open Settings". Make sure it's set to 1920x1080 for the resolution, and we recommend the following graphics settings:
-
-- Real-Time Score Type: Full Width Bar
-- Award Display Type: Live Stream Bug
-- Background Type: Transparent
-- Display Chroma box on Alliance Selection: Checked
-- Horizontal Orientation: (this should match your camera's perspective)
-- Vertical Orientation: Top of Screen (Bottom of Screen is okay too if you're sure the audience will be able to see it)
-
-Once you're done, disable the mouse on the browser input so the settings overlay doesn't show up. You can do this by right clicking on the input and then selecting "Mouse Enabled".
-
-![Audience Display Web graphics settings](./assets/ad-web-graphics-settings.png)
-
-Some FAQs if you're running into trouble:
-
-**Q: I can't hear anything**: Ensure that "Automatically Mix Audio" is unselected on the input in vMix, and that the audio is on and routed to bus M.
-
-**Q: There's a white background instead of transparent**: You're probably missing the custom CSS from the input. Right click on the input in vMix, go to properties and add the following custom CSS `body {background: transparent;}`. *You do not need to use the pink chroma key.*
-
-**Q: Scores didn't appear when the scorekeeper posted scores**: Have them go into Match Review and try re-posting. If it still doesn't work reach out for support.
-
-**Q: I changed settings from Chrome but they didn't update in vMix**: It's possible to change settings for an Audience Display configuration in a web browser and then use them in vMix by going to the [FMS Web Server](http://10.0.100.5), but configuration changes won't automatically sync across browsers. Refresh the browser input in vMix and it should pick up the changes.
-
-<details markdown="block">
-<summary>Legacy desktop-based Audience Display instructions, click to expand</summary>
-
-Only use the legacy Audience Display app if directed to do so by an FTA, HQ, or an AV Lead
-
-- Use the FIRST Audience Display shortcut located on the Windows desktop or search "Primary Display" in the Start menu. 
-- Ctrl-Shift-C accesses the Audience Display dialog box to set options. Options should be set as follows: 
-    - Chroma Background Fuchsia 
-    - 720p or 1080p 
-    - Center On Screen
-    - Real-Time Score Type: "\[Default\] Full Width"
-    - Real-Time Score Vertical: "\[Flipped\] Top of Screen"
-    - Real-Time Score Horizontal: *Whatever matches your camera's perspective*
-    - Award Display Type: "\[Default\] Live Stream Bug"
-    - Click Save Changes or Cancel to exit the dialog box 
-
-{: .faq }
-If you see pink shadows on Audience Display in vMix even after setting up the chroma key, set the "Red", "Green", and "Blue" sliders to about a third of the way up in the vMix color key settings.
-
-</details>
- 
-### 3. Launch vMix
+### 2. Launch vMix {#launch-vmix}
 
 {% comment %}
 <!-- TODO: These instructions don't seem to apply yet -->
@@ -162,8 +112,57 @@ Opening video input tips:
 - Automatically Restart with Transition 
 - Automatically Pause after Transition 
 - The video will always start at the beginning no matter where it was left for testing 
+
+### 3. Launch Audience Display (note FIRST updates may slightly change the operation) {#launch-audience-display}
+
+{: .new }
+2026 has a brand new audience display! Even if you've volunteered before please read this section.
+
+To add the web-based Audience Display to vMix, the easiest way is to do so via AV Assistant. Open the AV Assistant window and under the vMix menu, click "Add Audience Display (Web) input". It should pop up a dialog with some further instructions, follow those. That will add a new input to vMix and set it up so audio is always enabled on it. Bring that input up in preview and hover your mouse over it. Click on "Open Settings". Make sure it's set to 1920x1080 for the resolution, and we recommend the following graphics settings:
+
+- Real-Time Score Type: Full Width Bar
+- Award Display Type: Live Stream Bug
+- Background Type: Transparent
+- Display Chroma box on Alliance Selection: Checked
+- Horizontal Orientation: (this should match your camera's perspective)
+- Vertical Orientation: Top of Screen (Bottom of Screen is okay too if you're sure the audience will be able to see it)
+
+Once you're done, disable the mouse on the browser input so the settings overlay doesn't show up. You can do this by right clicking on the input and then selecting "Mouse Enabled".
+
+![Audience Display Web graphics settings](./assets/ad-web-graphics-settings.png)
+
+Some FAQs if you're running into trouble:
+
+**Q: I can't hear anything**: Ensure that "Automatically Mix Audio" is unselected on the input in vMix, and that the audio is on and routed to bus M.
+
+**Q: There's a white background instead of transparent**: You're probably missing the custom CSS from the input. Right click on the input in vMix, go to properties and add the following custom CSS `body {background: transparent;}`. *You do not need to use the pink chroma key.*
+
+**Q: Scores didn't appear when the scorekeeper posted scores**: Have them go into Match Review and try re-posting. If it still doesn't work reach out for support.
+
+**Q: I changed settings from Chrome but they didn't update in vMix**: It's possible to change settings for an Audience Display configuration in a web browser and then use them in vMix by going to the [FMS Web Server](http://10.0.100.5), but configuration changes won't automatically sync across browsers. Refresh the browser input in vMix and it should pick up the changes.
+
+<details markdown="block">
+<summary>Legacy desktop-based Audience Display instructions, click to expand</summary>
+
+Only use the legacy Audience Display app if directed to do so by an FTA, HQ, or an AV Lead
+
+- Use the FIRST Audience Display shortcut located on the Windows desktop or search "Primary Display" in the Start menu. 
+- Ctrl-Shift-C accesses the Audience Display dialog box to set options. Options should be set as follows: 
+    - Chroma Background Fuchsia 
+    - 720p or 1080p 
+    - Center On Screen
+    - Real-Time Score Type: "\[Default\] Full Width"
+    - Real-Time Score Vertical: "\[Flipped\] Top of Screen"
+    - Real-Time Score Horizontal: *Whatever matches your camera's perspective*
+    - Award Display Type: "\[Default\] Live Stream Bug"
+    - Click Save Changes or Cancel to exit the dialog box 
+
+{: .faq }
+If you see pink shadows on Audience Display in vMix even after setting up the chroma key, set the "Red", "Green", and "Blue" sliders to about a third of the way up in the vMix color key settings.
+
+</details>
  
-### 4. Sponsor PowerPoint / Video 
+### 4. Sponsor PowerPoint / Video {#sponsor-powerpoint}
 
 {: .note }
 It's important that you use the sponsor slideshow for your specific event, not the generic FIRST Suppliers slideshow or a draft version.
@@ -173,7 +172,7 @@ It's important that you use the sponsor slideshow for your specific event, not t
 - After complete, drag the file from the folder in Explorer and drop it over vMix (it may take a few seconds to load in)
 - Turn on Loop for the newly created input, then right click on the part of the input that shows the slides and open the SlideShow Settings. Set the transition to 5 seconds
 
-### 5. Verify Stream
+### 5. Verify Stream {#verify-stream}
 - Load in your stream keys with FIMAV Assistant. Open FIMAV Assistant, and in the vMix menu click on "Set Stream Keys".
 - In the stream settings window (the gear next to the stream icon) check that your quality includes "1080p" and "BusA".
 - Click the Stream button. After a few seconds, it should turn red and stay red until stopped by clicking the button again. A notification should be sent to the #av-alerts channel in Slack saying that your channel went live on Twitch. If that alert is not sent, or it shows the wrong Twitch channel, it means something is wrong with your stream.
