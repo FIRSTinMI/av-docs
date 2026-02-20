@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Setting up the FiM AV System
 nav_order: 12
 ---
@@ -41,7 +40,13 @@ nav_order: 12
  
 ### 1. Check Network Configuration
 
-When you log in to the computer, FiM AV Assistant should automatically pop up. Click next and let it perform hardware checks for the network. If any errors are shown, follow the steps below:
+When you log in to the computer, FiM AV Assistant should automatically pop up. Click next and let it perform hardware checks for the network.
+
+If any errors are shown, take a look at the networks the cart is connected to by running the `ipconfig` command in Terminal. The machine should have IP addresses assigned for `Internet-Vlan-10`, `Field-Vlan-20` (10.0.100.x), and `AV-Vlan-30` (192.168.25.x) -- note that the names may differ slightly depending on your field. If you need help with networking, please send along a picture including those three ethernet adapters, as it will help with troubleshooting.
+
+{% comment %}
+
+If any errors are shown, follow the steps below:
 
 - Run cmd 
 - Use command ‘ipconfig’ 
@@ -54,15 +59,43 @@ The internet IP address is the school/venue assigned IP. It is needed for live s
 
 The Field IP address is the FMS assigned IP. It is needed for Audience Display.
 
-The AV IP address is needed for the sound mixer and camera control. 
- 
-### 2. Launch Audience Display (note FIRST updates may slightly change the operation) 
+The AV IP address is needed for the sound mixer and camera control.
+
+{% endcomment %}
+
+
+### 2. Launch Audience Display (note FIRST updates may slightly change the operation) {#launch-audience-display}
 
 {: .new }
-Updated Audience Display recommendations coming soon! <!-- TODO -->
+2026 has a brand new audience display! Even if you've volunteered before please read this section.
+
+To add the web-based Audience Display to vMix, the easiest way is to do so via AV Assistant. Open the AV Assistant window and under the vMix menu, click "Add Audience Display (Web) input". It should pop up a dialog with some further instructions, follow those. That will add a new input to vMix and set it up so audio is always enabled on it. Bring that input up in preview and hover your mouse over it. Click on "Open Settings". Make sure it's set to 1920x1080 for the resolution, and we recommend the following graphics settings:
+
+- Real-Time Score Type: Full Width Bar
+- Award Display Type: Live Stream Bug
+- Background Type: Transparent
+- Display Chroma box on Alliance Selection: Checked
+- Horizontal Orientation: (this should match your camera's perspective)
+- Vertical Orientation: Top of Screen (Bottom of Screen is okay too if you're sure the audience will be able to see it)
+
+Once you're done, disable the mouse on the browser input so the settings overlay doesn't show up. You can do this by right clicking on the input and then selecting "Mouse Enabled".
+
+![Audience Display Web graphics settings](./assets/ad-web-graphics-settings.png)
+
+Some FAQs if you're running into trouble:
+
+**Q: I can't hear anything**: Ensure that "Automatically Mix Audio" is unselected on the input in vMix, and that the audio is on and routed to bus M.
+
+**Q: There's a white background instead of transparent**: You're probably missing the custom CSS from the input. Right click on the input in vMix, go to properties and add the following custom CSS `body {background: transparent;}`. *You do not need to use the pink chroma key.*
+
+**Q: Scores didn't appear when the scorekeeper posted scores**: Have them go into Match Review and try re-posting. If it still doesn't work reach out for support.
+
+**Q: I changed settings from Chrome but they didn't update in vMix**: It's possible to change settings for an Audience Display configuration in a web browser and then use them in vMix by going to the [FMS Web Server](http://10.0.100.5), but configuration changes won't automatically sync across browsers. Refresh the browser input in vMix and it should pick up the changes.
 
 <details markdown="block">
-<summary>Legacy desktop-based Audience Display instructions</summary>
+<summary>Legacy desktop-based Audience Display instructions, click to expand</summary>
+
+Only use the legacy Audience Display app if directed to do so by an FTA, HQ, or an AV Lead
 
 - Use the FIRST Audience Display shortcut located on the Windows desktop or search "Primary Display" in the Start menu. 
 - Ctrl-Shift-C accesses the Audience Display dialog box to set options. Options should be set as follows: 
@@ -82,6 +115,7 @@ If you see pink shadows on Audience Display in vMix even after setting up the ch
  
 ### 3. Launch vMix
 
+{% comment %}
 <!-- TODO: These instructions don't seem to apply yet -->
 <!-- You have two options. The easiest way is listed first 
 - Option 1
@@ -92,6 +126,7 @@ If you see pink shadows on Audience Display in vMix even after setting up the ch
     - There is a desktop shortcut in the upper left corner and a taskbar shortcut on the bottom of the screen. 
     - Click the down triangle on the Open button at the top left 
     - Browse to the Events folder for your event and select the .vmix file  -->
+{% endcomment %}
 
 **Put a copy of the default configuration into your event folder.** It can be found in Google Drive at "FiM-AV > Cart-Setup > vMix > 2026-Rebuilt-FiMVideo#.vmix". If you have difficulty finding this please reach out for help in the {% include slack-av-help.md %}. Double check that you're using the copy in your event folder, so you don't overwrite other events' configs.
 
