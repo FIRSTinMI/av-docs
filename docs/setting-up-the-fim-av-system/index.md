@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Setting up the FiM AV System
 nav_order: 12
 ---
@@ -19,11 +18,17 @@ nav_order: 12
 - Note: the monitor power and DisplayPort cables should be already connected and coiled. Please do not disconnect and pack these. Simply connect the monitor to the power and DisplayPort cables.
 - If using the network box (UDM Pro)
   - Connect the network box to port 7 of the AV switch for both internet and field access.
-- If an FTA decides to use an alternative setup
+- <details markdown="block">
+  <summary>If an FTA decides to use an alternative network setup, click to expand</summary>
+  
   - Connect the school internet to port 1 of the network switch.
   - Connect the FIRST field internet to port 2 of the network switch.
   - Connect the FIRST field network (10.0.100.0/5) to port 7 of the network switch.
-- Connect cameras to ports 14 and 15 of the network switch.
+  
+  </details>
+
+- Connect the PTZOptics camera ethernet to port 14 on the switch.
+- Connect the Sony camera ethernet to the red "SonyCam" port
 - Connect the projector coax to the HDMI to SDI converter output.
 - Power on the UPS.
     - If it does not power, the battery cable has most likely disconnected. Simply remove the four Philips screws on the cover to access the Anderson connector. You may have to push it in gently with a flat blade screwdriver. If you don't feel comfortable doing this on your own, reach out to the {% include slack-av-help.md %}.
@@ -35,9 +40,13 @@ nav_order: 12
  
 ### 1. Check Network Configuration
 
-*Note: FIM AV Assistant is currently in beta.*
+When you log in to the computer, FiM AV Assistant should automatically pop up. Click next and let it perform hardware checks for the network.
 
-When you log in to the computer, FIM AV Assistant should automatically pop up. Click next and let it perform hardware checks for the network. If any errors are shown, follow the steps below:
+As you step through AV Assistant, it will show errors or warnings for unexpected network configurations. If you need help with networking, please send along a picture of those errors, as it will help with troubleshooting.
+
+{% comment %}
+
+If any errors are shown, follow the steps below:
 
 - Run cmd 
 - Use command ‘ipconfig’ 
@@ -50,9 +59,43 @@ The internet IP address is the school/venue assigned IP. It is needed for live s
 
 The Field IP address is the FMS assigned IP. It is needed for Audience Display.
 
-The AV IP address is needed for the sound mixer and camera control. 
- 
-### 2. Launch Audience Display (note FIRST updates may slightly change the operation) 
+The AV IP address is needed for the sound mixer and camera control.
+
+{% endcomment %}
+
+
+### 2. Launch Audience Display (note FIRST updates may slightly change the operation) {#launch-audience-display}
+
+{: .new }
+2026 has a brand new audience display! Even if you've volunteered before please read this section.
+
+To add the web-based Audience Display to vMix, the easiest way is to do so via AV Assistant. Open the AV Assistant window and under the vMix menu, click "Add Audience Display (Web) input". It should pop up a dialog with some further instructions, follow those. That will add a new input to vMix and set it up so audio is always enabled on it. Bring that input up in preview and hover your mouse over it. Click on "Open Settings". Make sure it's set to 1920x1080 for the resolution, and we recommend the following graphics settings:
+
+- Real-Time Score Type: Full Width Bar
+- Award Display Type: Live Stream Bug
+- Background Type: Transparent
+- Display Chroma box on Alliance Selection: Checked
+- Horizontal Orientation: (this should match your camera's perspective)
+- Vertical Orientation: Top of Screen (Bottom of Screen is okay too if you're sure the audience will be able to see it)
+
+Once you're done, disable the mouse on the browser input so the settings overlay doesn't show up. You can do this by right clicking on the input and then selecting "Mouse Enabled".
+
+![Audience Display Web graphics settings](./assets/ad-web-graphics-settings.png)
+
+Some FAQs if you're running into trouble:
+
+**Q: I can't hear anything**: Ensure that "Automatically Mix Audio" is unselected on the input in vMix, and that the audio is on and routed to bus M.
+
+**Q: There's a white background instead of transparent**: You're probably missing the custom CSS from the input. Right click on the input in vMix, go to properties and add the following custom CSS `body {background: transparent;}`. *You do not need to use the pink chroma key.*
+
+**Q: Scores didn't appear when the scorekeeper posted scores**: Have them go into Match Review and try re-posting. If it still doesn't work reach out for support.
+
+**Q: I changed settings from Chrome but they didn't update in vMix**: It's possible to change settings for an Audience Display configuration in a web browser and then use them in vMix by going to the [FMS Web Server](http://10.0.100.5), but configuration changes won't automatically sync across browsers. Refresh the browser input in vMix and it should pick up the changes.
+
+<details markdown="block">
+<summary>Legacy desktop-based Audience Display instructions, click to expand</summary>
+
+Only use the legacy Audience Display app if directed to do so by an FTA, HQ, or an AV Lead
 
 - Use the FIRST Audience Display shortcut located on the Windows desktop or search "Primary Display" in the Start menu. 
 - Ctrl-Shift-C accesses the Audience Display dialog box to set options. Options should be set as follows: 
@@ -67,9 +110,12 @@ The AV IP address is needed for the sound mixer and camera control.
 
 {: .faq }
 If you see pink shadows on Audience Display in vMix even after setting up the chroma key, set the "Red", "Green", and "Blue" sliders to about a third of the way up in the vMix color key settings.
+
+</details>
  
 ### 3. Launch vMix
 
+{% comment %}
 <!-- TODO: These instructions don't seem to apply yet -->
 <!-- You have two options. The easiest way is listed first 
 - Option 1
@@ -80,14 +126,15 @@ If you see pink shadows on Audience Display in vMix even after setting up the ch
     - There is a desktop shortcut in the upper left corner and a taskbar shortcut on the bottom of the screen. 
     - Click the down triangle on the Open button at the top left 
     - Browse to the Events folder for your event and select the .vmix file  -->
+{% endcomment %}
 
-**Put a copy of the default configuration into your event folder.** It can be found in Google Drive at "FiM-AV > Cart-Setup > vMix > 2025-Reefscape-FiMVideo#.vmix". If you have difficulty finding this please reach out for help in the {% include slack-av-help.md %}. Double check that you're using the copy in your event folder, so you don't overwrite other events' configs.
+**Put a copy of the default configuration into your event folder.** It can be found in Google Drive at "FiM-AV > Cart-Setup > vMix > 2026-Rebuilt-FiMVideo#.vmix". If you have difficulty finding this please reach out for help in the {% include slack-av-help.md %}. Double check that you're using the copy in your event folder, so you don't overwrite other events' configs.
 
 This will open several inputs and input tabs: 
 
 - Field Cam  
 - PTZ Cam 
-- Audience Display (Desktop capture of the application window) 
+- Audience Display (Desktop capture). Please note that we recommend instead utilizing the web-based version of the Audience Display. See the [Launching Audience Display](#launch-audience-display) section for more information. 
 - Virtual – Game input (chroma key of Audience Display layered on top of a copy of Field Cam input) 
 - Several Opening videos 
 - Audio In 17+18 

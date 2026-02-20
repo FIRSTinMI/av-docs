@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Setup Realtek Vlans
 parent: New Machine Setup
 ---

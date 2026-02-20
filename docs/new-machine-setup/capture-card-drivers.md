@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Install Capture Card Drivers
 parent: New Machine Setup
 ---

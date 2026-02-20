@@ -1,5 +1,4 @@
 ---
-layout: page
 title: No Stream Audio
 parent: Troubleshooting Guides
 ---

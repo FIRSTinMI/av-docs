@@ -1,5 +1,4 @@
 ---
-layout: page
 title: No Game Sounds
 parent: Troubleshooting Guides
 ---

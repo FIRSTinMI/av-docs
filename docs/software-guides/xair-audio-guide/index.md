@@ -1,5 +1,4 @@
 ---
-layout: page
 title: xAir Audio Guide
 parent: Software Guides
 ---

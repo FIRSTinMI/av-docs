@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Software Guides
 has_children: true
 ---

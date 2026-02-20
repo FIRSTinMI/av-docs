@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Day -1 and 0
 has_children: true
 nav_order: 11
@@ -18,7 +17,7 @@ This document lists the needed AV tasks to ready the AV equipment for a *FIRST* 
 
 ## Hardware in Your FiM AV Setup
 
-Check out [Hardware Photos](hardware-photos) for a look at what all of the cases in the FiM AV setup look like.
+Check out [Hardware Photos](../hardware-photos) for a look at what all of the cases in the FiM AV setup look like.
 
  
 ## Field – Main Gym 
@@ -58,7 +57,7 @@ The AV cart has 2 wireless mics and a mixer which can be managed using the X-AIR
 
 There are 2 cameras provided with the FiM AV system – both PTZ (Pan Tilt Zoom). The PTZ cameras can be controlled in vMix using the PTZ Optics VISCA UDP protocol. A camera should be positioned mid-field, back far enough to capture the whole field. Many times this is a tripod positioned at the top of the bleachers. Secure as needed. A mounting arm is also provided for use if you are *safely* able to do so. Our standards during match play are holding that long shot through the whole match, with the scoring display on the top of the screen and realtime rankings at the bottom. When the match isn't running, use as much creativity with camera angles as you'd like.
 
-The cameras need one ethernet cable run to each. There are 150 foot spools in the AV Tote. Connect the camera ethernet to ports 14 and 15 on the switch. Make a note of the IP addresses the cameras are labeled with, as you'll need them when setting up vMix.
+The cameras need one ethernet cable run to each. There are 150 foot spools in the AV Tote. Connect the PTZOptics camera ethernet to port 14 on the switch, and the Sony camera ethernet to the red "SonyCam" port. Make a note of the IP addresses the cameras are labeled with, as you'll need them when setting up vMix.
 
 {: .note }
 A network diagram PDF document can be found on the Windows desktop of the AV computer.  
