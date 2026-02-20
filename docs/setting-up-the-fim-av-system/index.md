@@ -42,7 +42,7 @@ nav_order: 12
 
 When you log in to the computer, FiM AV Assistant should automatically pop up. Click next and let it perform hardware checks for the network.
 
-If any errors are shown, take a look at the networks the cart is connected to by running the `ipconfig` command in Terminal. The machine should have IP addresses assigned for `Internet-Vlan-10`, `Field-Vlan-20` (10.0.100.x), and `AV-Vlan-30` (192.168.25.x) -- note that the names may differ slightly depending on your field. If you need help with networking, please send along a picture including those three ethernet adapters, as it will help with troubleshooting.
+As you step through AV Assistant, it will show errors or warnings for unexpected network configurations. If you need help with networking, please send along a picture of those errors, as it will help with troubleshooting.
 
 {% comment %}
 
