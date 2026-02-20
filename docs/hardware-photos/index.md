@@ -1,6 +1,6 @@
 ---
 title: Hardware Photos
-parent: Day 0 and 1
+parent: Day -1 and 0
 redirect_from:
   - /docs/day--1-and-0/hardware-photos
 ---
