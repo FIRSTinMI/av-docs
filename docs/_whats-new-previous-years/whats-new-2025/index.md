@@ -2,6 +2,7 @@
 title: 'What&apos;s New in 2025'
 nav_order: 20
 nav_exclude: true
+layout: page
 ---
 
 # What&apos;s New in 2025
