@@ -164,13 +164,20 @@ If you see pink shadows on Audience Display in vMix even after setting up the ch
  
 ### 4. Sponsor PowerPoint / Video {#sponsor-powerpoint}
 
+{% comment %}
 {: .note }
 It's important that you use the sponsor slideshow for your specific event, not the generic FIRST Suppliers slideshow or a draft version.
+{% endcomment %}
 
-- Open the sponsor slideshow in your event-specific folder. For instructions on finding this, see [Google Drive Layout](../google-drive). Folders are organized by event name.
-- Update the slideshow to add your event name wherever called for, and remove any event-specific sponsors that are not for your event, then save the file.
+- Copy the sponsor slideshow from the FiM Official Media folder to your event folder. For instructions on finding this, see [Google Drive Layout](../google-drive).
+- Update the copied slideshow to add your event name wherever called for, and remove any event-specific sponsors that are not for your event, then save the file.
 - After complete, drag the file from the folder in Explorer and drop it over vMix (it may take a few seconds to load in)
-- Turn on Loop for the newly created input, then right click on the part of the input that shows the slides and open the SlideShow Settings. Set the transition to 5 seconds
+- Also drag in the 'FIRST SPONSOR 2026 captions_no audio' video from the FIRST Official Media > Videos folder
+- Set up vMix so that neither input loops, and one ending triggers a transition into the other
+  - [Click here for a video demonstrating the process](https://drive.google.com/file/d/1YGz3XY77FIhVpBUQ6feWijg8Ei-WjZtz/view?usp=drive_link) (link only works from AV cart)
+  - Note that the input numbers used in triggers are fixed, so give these two inputs a low number that you don't expect to change later in the event
+
+![Image showing trigger setup](./assets/SponsorSlideTriggerSetup.png)
 
 ### 5. Verify Stream {#verify-stream}
 - Load in your stream keys with FIMAV Assistant. Open FIMAV Assistant, and in the vMix menu click on "Set Stream Keys".

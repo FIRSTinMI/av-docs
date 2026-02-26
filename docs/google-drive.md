@@ -12,8 +12,7 @@ All of the content that you need for your event can be found in our FiM-AV Share
   - **XR18-FRC-Default.scn**: Our recommended configuration for the audio mixer
 - **FRC**: Everything related to FRC events
   - **Events-2026**: Content related to a specific event, every Michigan event has its own folder
-    - _You'll want to look in here for your event's sponsor slideshow, which should be played between each match._
-  - **FiM Official Media**: Content created by *FIRST* in Michigan
+  - **FiM Official Media**: Content created by *FIRST* in Michigan, including the sponsor slideshow
     - **vMix Graphics Package**: Branded graphics elements that fit in with FRC events and can be used in your production, simply drag them into vMix
   - **FIRST Official Media**: Content created by *FIRST*. This folder contains nearly everything called for in your event script
     - **Music and Sound**: Guidelines for DJs and pre-cut music beds for the awards ceremony (optional)
