@@ -173,6 +173,7 @@ It's important that you use the sponsor slideshow for your specific event, not t
 - Update the copied slideshow to add your event name wherever called for, and remove any event-specific sponsors that are not for your event, then save the file.
 - After complete, drag the file from the folder in Explorer and drop it over vMix (it may take a few seconds to load in)
 - Also drag in the 'FIRST SPONSOR 2026 captions_no audio' video from the FIRST Official Media > Videos folder
+- Go into the slideshow settings in vMix and set the transition to 5 seconds
 - Set up vMix so that neither input loops, and one ending triggers a transition into the other
   - [Click here for a video demonstrating the process](https://drive.google.com/file/d/1YGz3XY77FIhVpBUQ6feWijg8Ei-WjZtz/view?usp=drive_link) (link only works from AV cart)
   - Note that the input numbers used in triggers are fixed, so give these two inputs a low number that you don't expect to change later in the event
