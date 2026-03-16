@@ -169,9 +169,8 @@ If you see pink shadows on Audience Display in vMix even after setting up the ch
 It's important that you use the sponsor slideshow for your specific event, not the generic FIRST Suppliers slideshow or a draft version.
 {% endcomment %}
 
-- Copy the sponsor slideshow from the FiM Official Media folder to your event folder. For instructions on finding this, see [Google Drive Layout](../google-drive).
-- Update the copied slideshow to add your event name wherever called for, and remove any event-specific sponsors that are not for your event, then save the file.
-- After complete, drag the file from the folder in Explorer and drop it over vMix (it may take a few seconds to load in)
+- **Use the sponsor slideshow in your event folder**. For instructions on finding this, see [Google Drive Layout](../google-drive).
+- Drag the file from the folder in Explorer and drop it over vMix (it may take a few seconds to load in)
 - Also drag in the 'FIRST SPONSOR 2026 captions_no audio' video from the FIRST Official Media > Videos folder
 - Go into the slideshow settings in vMix and set the transition to 5 seconds
 - Set up vMix so that neither input loops, and one ending triggers a transition into the other

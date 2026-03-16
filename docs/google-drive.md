@@ -11,8 +11,8 @@ All of the content that you need for your event can be found in our FiM-AV Share
   - **StreamDeck**: Our recommended StreamDeck configurations
   - **XR18-FRC-Default.scn**: Our recommended configuration for the audio mixer
 - **FRC**: Everything related to FRC events
-  - **Events-2026**: Content related to a specific event, every Michigan event has its own folder
-  - **FiM Official Media**: Content created by *FIRST* in Michigan, including the sponsor slideshow
+  - **Events**: Content related to a specific event, every Michigan event has its own folder. Use the sponsor slideshow in your folder
+  - **FiM Official Media**: Content created by *FIRST* in Michigan
     - **vMix Graphics Package**: Branded graphics elements that fit in with FRC events and can be used in your production, simply drag them into vMix
   - **FIRST Official Media**: Content created by *FIRST*. This folder contains nearly everything called for in your event script
     - **Music and Sound**: Guidelines for DJs and pre-cut music beds for the awards ceremony (optional)

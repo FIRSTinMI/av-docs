@@ -53,6 +53,10 @@ nav_order: 13
 ## Saturday  
 
 - See Friday's [Before 8:00am](#before-800am)
+- Alliance selection
+  - The alliance selection screen in audience display should have space for a camera feed
+  - An easy way to run this is to create a new blank input in vMix (using the dropdown arrow next to add input button), then adding layers for the audience display input and the camera input. Change the scale and position of the camera layer so it fits in the space provided by audience display
+  - You can set this up prior to alliance selection, like during lunch by asking the scorekeeper to change the video switch to the alliance selection screen.
 - Different Opening script/videos 
 - Awards 
 - Impact Award Video
