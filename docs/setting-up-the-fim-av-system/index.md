@@ -164,13 +164,14 @@ If you see pink shadows on Audience Display in vMix even after setting up the ch
  
 ### 4. Sponsor PowerPoint / Video {#sponsor-powerpoint}
 
-{% comment %}
 {: .note }
 It's important that you use the sponsor slideshow for your specific event, not the generic FIRST Suppliers slideshow or a draft version.
-{% endcomment %}
 
 - **Use the sponsor slideshow in your event folder**. For instructions on finding this, see [Google Drive Layout](../google-drive).
-- Drag the file from the folder in Explorer and drop it over vMix (it may take a few seconds to load in)
+- Drag the video file from the folder in Explorer and drop it over vMix (it may take a few seconds to load in).
+- The video already includes all necessary tweaks for your specific event and all FIRST sponsors.
+
+{% comment %}
 - Also drag in the 'FIRST SPONSOR 2026 captions_no audio' video from the FIRST Official Media > Videos folder
 - Go into the slideshow settings in vMix and set the transition to 5 seconds
 - Set up vMix so that neither input loops, and one ending triggers a transition into the other
@@ -178,6 +179,8 @@ It's important that you use the sponsor slideshow for your specific event, not t
   - Note that the input numbers used in triggers are fixed, so give these two inputs a low number that you don't expect to change later in the event
 
 ![Image showing trigger setup](./assets/SponsorSlideTriggerSetup.png)
+
+{% endcomment %}
 
 ### 5. Verify Stream {#verify-stream}
 - Load in your stream keys with FIMAV Assistant. Open FIMAV Assistant, and in the vMix menu click on "Set Stream Keys".
