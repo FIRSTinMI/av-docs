@@ -31,14 +31,14 @@ The following software is required to be installed on the AV Cart.  If you are s
 4. The following software will need to be downloaded individually and installed. These links may be old.  Worst case, access the "Cart Setup" folder on the G drive for installers
     - [VMix](https://www.vmix.com/software/download.aspx)
     - [Advanced IP Scanner](https://www.advanced-ip-scanner.com/download/)
-    - [BEHRINGER X18 Drivers (Mixers -> Digital Stagebox Mixers -> All -> X18 -> Software -> Drivers)](https://www.behringer.com/downloads.html)
+    - [BEHRINGER X18 Drivers (Show All -> USB Driver)](https://archive.org/details/behringer-xr18-software)
     - [Realtek Ethernet Diagnostic Utility](https://www.techspot.com/drivers/driver/file/information/18001/)
     - [Blackmagic Converters](https://www.blackmagicdesign.com/support/family/broadcast-and-atem-converters)
     - [NDI Tools](https://www.newtek.com/ndi/tools/)
     - [PTZOptics Control App](https://ptzoptics.com/ptz-app/)
     - [Slack](https://slack.com/downloads/windows)]
     - [Stream Deck](https://www.elgato.com/en/downloads)
-    - [XAir Edit (Mixers -> Digital Stagebox Mixers -> All -> X18 -> Software -> Windows)](https://www.behringer.com/downloads.html)
+    - [XAir Edit (Show All -> X-Air Edit)](https://archive.org/details/behringer-xr18-software)
     - Office 2016 (Installer is on the G drive)
 
 5. Sign into Slack.  You should be able to sign into 2 workspaces, `first-in-michigan` and `frc-support`

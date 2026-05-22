@@ -28,7 +28,7 @@ These requirements apply to any coverage of a FiM event which is used to create 
 The following are our recommendations for how you can set up your graphics and run your broadcast. We've found this to work well, but you're welcome to use all, part, or none of it. Requirements for the broadcast can be found elsewhere on this site. If you have questions about these recommendations, or aren't sure how to do any of them, reach out for help to the friendly people in the {% include slack-av-help.md %}!
 
 ### Overlays
-- Make use of our live captions, this makes your event more accessible to people who are deaf or hard of hearing. We recommend placing these captions at the bottom of your screen, with a separate color set up for each microphone (the default configuration is red and blue). Use overlay number 4 in vMix for this.
+- Make use of our live captions, this makes your event more accessible to people who are deaf or hard of hearing. We recommend placing these captions at the bottom of your screen, with a separate color set up for each microphone (the default configuration is red and blue). Use overlay number 8 in vMix for this.
   - Live captions configuration can be accessed via AV Assistant
   - More information can be found in the [software guide](/docs/software-guides/captions/)
 - Place the real-time scoring from Audience Display on the top half of the screen, with red and blue matching the sides of the field from the camera's perspective. Use overlay number 3 in vMix for this. If you're using the rankings ticker you may need to move it up a bit so it doesn't conflict.
