@@ -29,7 +29,7 @@ AV staff remotely control carts to fix streams and configuration. At least one o
 | Service | Domains | Ports |
 |---------|---------|-------|
 | TeamViewer | `*.teamviewer.com` | TCP 5938 (primary), fallback TCP 443 / 80, UDP 5938 |
-| Tailscale | `controlplane.tailscale.com`, `login.tailscale.com`, `*.tailscale.com`, `derp*.tailscale.com`, `log.tailscale.io` | TCP 443, UDP 41641 (direct), UDP 3478 (STUN) |
+| Tailscale | `*.firstinmichigan.us` | TCP 443, UDP 41641 (direct), UDP 3478 (STUN) |
 
 ## FiM AV web apps and services
 
